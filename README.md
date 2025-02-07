@@ -33,7 +33,7 @@ Agora que já temos tudo mapeado, *bora hackear!*
 
 Logo de cara quando acessamos a máquina temos as credenciais do nosso usuário que vamos utilizar como ponto de partida, como se o atacante tivesse obtido já algum nível de acesso.
 
-![2025-02-05_20-30.png](2025-02-05_20-30.png)
+![2025-02-05_20-30.png](./screenshots/2025-02-05_20-30.png)
 
 ```
 Username: rose
@@ -666,7 +666,7 @@ Confesso que gastei um tempo tentando encontrar informações relevantes, mas ac
 
 Nesse caso pude ver que o usuário ***ryan*** tem uma relação direta com o usuário ***ca_svc.***
 
-![2025-02-06_10-36.png](2025-02-06_10-36.png)
+![2025-02-06_10-36.png](./screenshots/2025-02-06_10-36.png)
 
 Ao clicar em ***ca_svc*** vemos que se trata como o próprio nome já sugere, de um ***Certification Authority*** (Autoridade de Certificação).
 
@@ -674,7 +674,7 @@ Para quem é novo nesse mundo de **Windows Server** e **Active Directory (AD)**,
 
 O que acontece basicamente é que uma **Certification Authority (CA)** é uma entidade responsável por emitir e gerenciar certificados digitais dentro uma infraestrutura de chave pública (**PKI - Public Key Infrastructure**). Ele tem a  responsabilidade de autenticar a identidade de usuários, computadores e serviços emitindo **certificados digitais** que garantem a segurança da comunicação e a identidade das entidades dentro da rede.
 
-![2025-02-06_10-41.png](2025-02-06_10-41.png)
+![2025-02-06_10-41.png](./screenshots/2025-02-06_10-41.png)
 
 Sabendo disso, e tendo o acesso ao ***ryan***  temos algo potencialmente perigoso caso exista alguma falha no fluxo de autenticação desses certificados.
 
